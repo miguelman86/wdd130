@@ -1,12 +1,30 @@
-nav {
-    background-color: darkblue;
-    padding: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+nav {
+    display: flex;
+    background-color: #000080;
+    /* Azul escuro igual da sua imagem */
+    padding: 10px 0;
+}
+
+/* Cada link/bloco do menu */
 nav a {
+    flex: 1;
+    /* Faz todos os blocos terem exatamento o mesmo tamanho */
+    text-align: center;
+    /* Centraliza o texto dentro do seu próprio bloco */
     color: white;
-    display: block;
-    padding: 20px;
+    /* Cor do texto */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    padding: 12px 0;
+    /* Espaçamento interno vertical */
+    font-family: sans-serif;
+    /* Opcional: fonte limpa */
 }
 
 h1 {
