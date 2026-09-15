@@ -12,6 +12,7 @@ nav {
 
 /* Cada link/bloco do menu */
 nav a {
+    display: block;
     
     /* Faz todos os blocos terem exatamento o mesmo tamanho */
     text-align: center;
