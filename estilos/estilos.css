@@ -5,7 +5,6 @@
 }
 
 nav {
-    display: flex;
     background-color: #000080;
     /* Azul escuro igual da sua imagem */
     padding: 10px 0;
@@ -13,7 +12,7 @@ nav {
 
 /* Cada link/bloco do menu */
 nav a {
-    flex: 1;
+    
     /* Faz todos os blocos terem exatamento o mesmo tamanho */
     text-align: center;
     /* Centraliza o texto dentro do seu próprio bloco */
@@ -27,11 +26,15 @@ nav a {
     /* Opcional: fonte limpa */
 }
 
+main {
+    max-width: 840px;
+}
+
 h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -40,6 +43,26 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #a7e9ee;
+    color: #020d0e;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
