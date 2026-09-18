@@ -46,10 +46,12 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
 
 p {
-    padding: 0px;
+    padding: 20px;
 }
 
 aside {
@@ -60,11 +62,19 @@ aside {
     background-color: #a7e9ee;
     color: #020d0e;
     text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 16px;
+    left: 110px;
+
 }
 
 footer {
@@ -73,19 +83,13 @@ footer {
     text-align: center;
 }
 
-/* Seletores de Classe */
+/* seletores de classe */
 
 .caixa {
-    margin: 1px;
+    margin: 10px;
     border: 1px solid #030000;
-    padding: 1px;
+    padding: 10px;
     background-color: #45c0e6;
     color: #000;
 }
 
-aside h2 {
-    position: relative;
-    top: 40px;
-    left: 1px;
-
-}
