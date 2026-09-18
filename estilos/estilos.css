@@ -45,6 +45,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -70,4 +71,21 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Seletores de Classe */
+
+.caixa {
+    margin: 1px;
+    border: 1px solid #030000;
+    padding: 1px;
+    background-color: #45c0e6;
+    color: #000;
+}
+
+aside h2 {
+    position: relative;
+    top: 40px;
+    left: 1px;
+
 }
