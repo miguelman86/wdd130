@@ -1,6 +1,6 @@
 :root {
     --cor-primaria: #65bdd3;
-    --cor-secundaria: #f4a261;
+    --cor-secundaria: #ecc7a8;
     --cor-destaque1: #264653;
     --cor-destaque2: #e9c46a;
     --fonte-titulo: serif;
@@ -71,7 +71,12 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-    border: 1px solid #5a554c;
+    border: 1px solid var(--cor-destaque2);
+}
+
+section p {
+    background-color: var(--cor-secundaria);
+    padding: 20px;
 }
 
 footer {
