@@ -37,6 +37,8 @@ main {
 
 h1 {
     color: var(--background-color-nav);
+    text-align: center;
+    margin: 20px;
 }
 
 main img {
@@ -89,7 +91,7 @@ footer {
     margin: 10px;
     border: 1px solid #030000;
     padding: 10px;
-    background-color: #45c0e6;
+    background-color: #94ddf3;
     color: #000;
 }
 
