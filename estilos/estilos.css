@@ -8,37 +8,45 @@
     box-sizing: border-box;
 }
 
-nav {
-    background-color: var(--background-color-nav);
-    /* Azul escuro igual da sua imagem */
-    padding: 10px 0;
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
-/* Cada link/bloco do menu */
+nav {
+    background-color: rgb(6, 12, 99);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
 nav a {
     display: block;
-    
-    /* Faz todos os blocos terem exatamento o mesmo tamanho */
-    text-align: center;
-    /* Centraliza o texto dentro do seu próprio bloco */
-    color: white;
-    /* Cor do texto */
+    padding: 0.5rem;
     text-decoration: none;
-    /* Remove o sublinhado */
-    padding: 12px 0;
-    /* Espaçamento interno vertical */
-    font-family: sans-serif;
-    /* Opcional: fonte limpa */
-}
-
-main {
-    max-width: 840px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    /* abreviação para branco */
 }
 
 h1 {
     color: var(--background-color-nav);
     text-align: center;
     margin: 20px;
+    border-bottom: 1px solid var(--background-color-nav);
+}
+
+.grid {
+    display: grid;
+    text-align: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -61,10 +69,11 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: #a7e9ee;
-    color: #020d0e;
-    text-align: center;
+    background-color: gainsboro;
+    color: #052e2e;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -76,7 +85,6 @@ aside h2 {
     position: absolute;
     top: 16px;
     left: 110px;
-
 }
 
 footer {
@@ -85,13 +93,11 @@ footer {
     text-align: center;
 }
 
-/* seletores de classe */
-
 .caixa {
-    margin: 10px;
+    margin: 0 auto;
     border: 1px solid #030000;
     padding: 10px;
-    background-color: #94ddf3;
+    background-color: #ffffff;
     color: #000;
 }
 
