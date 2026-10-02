@@ -1,5 +1,6 @@
 :root {
     --cor-primaria: #181616;
+    --cor-secundaria: #ecc7a8;
     --cor-destaque1: #044762;
     --cor-destaque2: #e9c46a;
     --fonte-titulo: serif;
@@ -10,21 +11,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-header {
-    background-color: var(--cor-destaque1);
-    color: #ffffff;
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-header img {
-    width: 80px;
-    height: auto;
-    justify-self: center;
 }
 
 body {
@@ -43,6 +29,21 @@ h1, h2 {
     text-align: center;
 }
 
+header {
+    background-color: var(--cor-destaque1);
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    justify-self: center;
+}
+
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -55,6 +56,8 @@ header nav ul {
     list-style: none;
     gap: 20px;
     flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
@@ -63,14 +66,21 @@ nav a {
     font-weight: 700;
     padding: 8px;
     display: block;
+    text-align: center;
 }
 
 nav a:hover {
     color: var(--cor-destaque2);
 }
 
-.socialmedia a {
-    text-decoration: none;
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+header nav, footer nav {
+    margin: 0;
+    padding: 0;
 }
 
 .hero {
@@ -116,6 +126,11 @@ nav a:hover {
     background-color: transparent;
     margin: 0;
     padding: 0;
+}
+
+section p {
+    background-color: var(--cor-secundaria);
+    padding: 20px;
 }
 
 .historia {
@@ -189,6 +204,7 @@ footer {
     color: #ffffff;
     padding: 15px 20px;
     margin-top: 20px;
+    text-align: center;
 }
 
 footer p {
