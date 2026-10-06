@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco | River Adventure Rafting</title>
+    <meta name="description" content="Informaçoes de contato da empresa River Adventure Rafting">
+    <meta name="author" content="Miguel Jose Mansilla Avila">
+    <link rel="stylesheet" href="estilos/contato.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/z-wwr-oars.png" alt="Logotipo do site de Rafting">
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="empresa-topo">
+            <h1>River Adventure Rafting</h1>
+            <div class="info-empresa">
+                <p>R. Alm. Barroso, 1160 - 1160<br>
+                    Foz do Iguaçu - Parana<br>
+                    +55 45 98742 2379<br>
+                    riveradventurerafting@gmail.com</p>
+            </div>
+            
+        </div>
+        <div class="contato-grid">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10181.791065139407!2d-54.59174229941692!3d-25.54481322121526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f69035ffe04f79%3A0x7ec711f2c70b001b!2sIguazu%20Falls!5e0!3m2!1ses!2sbr!4v1791253982338!5m2!1ses!2sbr"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <form class="formulario">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite aqui" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite aqui" required>
+                </div>
+                <div class="campo radio-group">
+                    <label>Propósito da Mensagem</label>
+                    <div class="opcoes">
+                        <label><input type="radio" name="proposito" value="geral"> Consulta Geral</label>
+                        <label><input type="radio" name="proposito" value="reserva" checked> Pergunta sobre Reserva</label>
+                        <label><input type="radio" name="proposito" value="sugestao"> Sugestão de Site</label>
+                    </div>
+                </div>
+                
+                <div class="mensagem">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite aqui"></textarea>
+                </div>
+                
+                <div class="checkbox">
+                    <label><input type="checkbox" name="newsletter"> Por favor, me inscreva na newsletter mensal</label>
+                </div>
+                
+                <button type="submit">Entrar em Contato!</button>
+            </form>
+        </div>
+        <section class="funcionarios">
+            <h2>Estamos Aqui para Servi-lo</h2>
+            <div class="funcionarios-grid">
+                <figure>
+                    <img src="imagens/foto-perfil.jpg" alt="Funcionário Miguel Mansilla" width="230">
+                    <figcaption><strong>Miguel Mansilla</strong><br>Guia Principal de Rafting</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/dwayne-johnson_4mx1.jpg" alt="Funcionário Nestor Linares" width="230">
+                    <figcaption><strong>Nestor Linares</strong><br>Instrutor de Segurança</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/catherine.jpg" alt="Funcionária Catherine Rivas" width="230">
+                    <figcaption><strong>Catherine Rivas</strong><br>Atendimento e Reservas</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+   
+    <footer>
+        <p>&copy;2026 🌊 River Adventure Rafting 🌊 Miguel Jose Mansilla Avila</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/">
+                <img src="imagens/facebook-logo.png" alt="Logo do Facebook">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="imagens/instagram-logo.png" alt="Logo do instagram">
+            </a>
+            <a href="https://es.linkedin.com/">
+                <img src="imagens/linkedin-logo.png" alt="Logo do linkedin">
+            </a>            
+        </nav>
+    </footer>
+</body>
+</html>
