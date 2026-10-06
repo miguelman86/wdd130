@@ -76,7 +76,7 @@ nav a:hover {
     color: var(--cor-destaque2);
 }
 
-nav,{
+nav {
     margin: 16px;
     padding: 8px;
 }
