@@ -6,6 +6,7 @@
     --cor-branco: #ffffff;
     --cor-destaque-claro: #67c4db;
     --cor-lima: #bcf806;
+    --cor-border: #837d7d;
     --fonte-titulo: serif;
     --fonte-body: arial, helvetica, sans-serif;
 }
@@ -310,7 +311,7 @@ textarea {
 /* Funcionários */
 .funcionarios {
     margin: 10px;
-    border: 1px solid #524c4c;
+    border: 1px solid var(--cor-border);
     padding: 20px 0;
     background-color: var(--cor-destaque-claro);
 }
@@ -332,8 +333,7 @@ textarea {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    background-color: #ddd;
-    border: 1px solid #aaa;
+    border: 1px solid var(--cor-border);
 }
 
 .funcionarios-grid figcaption {
