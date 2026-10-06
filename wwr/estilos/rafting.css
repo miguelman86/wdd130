@@ -361,7 +361,7 @@ footer p {
     text-align: left;
 }
 
-.socialmedia {
+.redes-sociais {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
@@ -369,11 +369,11 @@ footer p {
     padding: 0;
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 32px;
     height: 32px;
 }
