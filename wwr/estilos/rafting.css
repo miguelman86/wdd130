@@ -1,8 +1,9 @@
 :root {
     --cor-primaria: #181616;
     --cor-secundaria: #ecc7a8;
-    --cor-destaque1: #044762;
+    --cor-destaque1: #105b79;
     --cor-destaque2: #e9c46a;
+    --cor-destaque3: #1dbec4;
     --cor-branco: #ffffff;
     --cor-destaque-claro: #67c4db;
     --cor-lima: #bcf806;
@@ -155,7 +156,7 @@ section p {
 }
 
 .historia-conteudo p {
-    background-color: var(--cor-branco);
+    background-color: var(--cor-secundaria);
     padding: 15px;
     margin: 0;
     line-height: 1.5;
@@ -197,11 +198,12 @@ section p {
     margin-top: 8px;
     font-size: 0.85rem;
     font-weight: bold;
-    color: var(--cor-destaque1);
+    color: var(--cor-primaria);
 }
 
 main {
     background-color: var(--cor-secundaria);
+    padding-bottom: 20px;
 }
 
 .empresa-topo h1 {
@@ -308,6 +310,15 @@ textarea {
     color: var(--cor-primaria);
 }
 
+.newsletter {
+    padding: 0 150px;
+}
+
+.newsletter button {
+    margin: 100px;
+    margin-bottom: 0;
+}
+
 /* Funcionários */
 .funcionarios {
     margin: 10px;
@@ -342,6 +353,141 @@ textarea {
     line-height: 1.4;
 }
 
+.cta {
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cta p {
+    margin: 0;
+}
+
+.cta a {
+    padding: 20px
+}
+    
+.ofertas-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: auto;
+}
+
+.oferta {
+    text-align: center;
+    border: 1px solid var(--cor-border);
+    background-color: var(--cor-destaque3);
+}
+
+.oferta h3 {
+    padding: 20px 0 0 0;
+}
+
+.oferta p {
+    background-color: var(--cor-destaque3);
+}
+
+/* Tabela de Passeios */
+.tabela-container {
+    margin: 30px 16px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: var(--cor-branco);
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid var(--cor-border);
+    text-align: center;
+}
+
+th {
+    background-color: var(--cor-destaque1);
+    color: var(--cor-branco);
+}
+
+/* Passeios Grid */
+.hero-passeios {
+    margin: 0;
+}
+
+.hero-passeios p {
+    margin: 0;
+}
+
+.passeios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+
+.passeios-grid p {
+    margin: 0;
+}
+
+.card-passeio {
+    background-color: var(--cor-destaque3);
+    border: 1px solid var(--cor-border);
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.card-passeio p {
+    background-color: var(--cor-destaque3);
+}
+
+.card-passeio img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* CTA Passeios */
+.cta-reserva {
+    text-align: center;
+    background-color: var(--cor-destaque1);
+    color: var(--cor-branco);
+    padding: 30px;
+    margin: 20px 16px;
+    border-radius: 8px;
+}
+
+.cta-reserva h2 {
+    color: var(--cor-branco);
+    margin-bottom: 10px;
+}
+
+.cta-reserva p {
+    background-color: var(--cor-destaque1);
+}
+
+.btn-cta {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: var(--cor-destaque2);
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-cta:hover {
+    background-color: var(--cor-lima);
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -349,7 +495,6 @@ footer {
     background-color: var(--cor-destaque1);
     color: var(--cor-branco);
     padding: 15px 20px;
-    margin-top: 20px;
     text-align: center;
 }
 
