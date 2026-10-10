@@ -90,6 +90,12 @@ header nav, footer nav {
 
 .hero {
     position: relative;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .hero h1 {
@@ -102,11 +108,11 @@ header nav, footer nav {
     text-align: center;
 }
 
-.hero article {
+.hero div {
     position: absolute;
     bottom: 30px;
-    left: 20px;
-    right: 20px;
+    left: 250px;
+    right: 250px;
     background-color: var(--cor-destaque2);
     padding: 12px;
     display: flex;
@@ -120,14 +126,14 @@ header nav, footer nav {
     height: auto;
 }
 
-.hero article img {
+.hero div img {
     width: 125px;
     flex-shrink: 0;
     border: 1px solid var(--cor-destaque1);
     float: right;
 }
 
-.hero article p {
+.hero div p {
     background-color: transparent;
     margin: 0;
     padding: 0;
